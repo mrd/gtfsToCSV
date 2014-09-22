@@ -1,0 +1,39 @@
+gtfsToCSV - convert GTFS realtime vehicle locations to CSV
+Copyright (C) 2014 Matthew Danish
+Homepage - http://github.com/mrd/gtfsToCSV
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Compilation
+-----------
+
+Install the protocol buffers libraries and the protocol buffer compiler-to-C:
+
+  https://github.com/protobuf-c/protobuf-c
+
+On Debian you have the option of installing these packages:
+
+  libprotobuf-c-dev libprotobuf-c1 libprotobuf8 libprotoc8 protobuf-c-compiler
+
+Then type: make
+
+
+Example Usage
+-------------
+
+gtfsToCSV < locations.pb > locations.csv
+
+
+Enjoy.
+
