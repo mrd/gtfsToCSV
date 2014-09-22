@@ -1,4 +1,5 @@
-gtfsToCSV - convert GTFS realtime vehicle locations to CSV
+gtfsToCSV - convert GTFS realtime vehicle locations to CSV - a simple example of GTFS-realtime usage
+
 Copyright (C) 2014 Matthew Danish
 Homepage - http://github.com/mrd/gtfsToCSV
 
